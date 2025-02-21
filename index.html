@@ -1,10 +1,75 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <title> Wellcome to DCSReady.com</title>
-  </head>
-  <body>
-    <h1>Hello, this is DCSReady.com!</h1>
-    <p> Website under construction...</p>
-  </body>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DCSReady - Freelance Engineering Services</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <style>
+        body { font-family: 'Poppins', sans-serif; background-color: #f8f9fa; }
+        .hero { background: linear-gradient(to right, #002B5B, #005B96); color: white; padding: 80px 20px; text-align: center; }
+        .hero h1 { font-size: 3rem; font-weight: 700; }
+        .hero p { font-size: 1.3rem; }
+        .section { padding: 60px 20px; }
+        .section h2 { color: #002B5B; font-weight: 600; }
+        .footer { background: #002B5B; color: white; text-align: center; padding: 20px; }
+        .btn-primary { background-color: #005B96; border-color: #005B96; }
+        .btn-primary:hover { background-color: #003F6B; }
+    </style>
+</head>
+<body>
+    <header class="hero">
+        <h1>Welcome to DCSReady</h1>
+        <p>Your trusted freelance engineering partner in the petroleum industry</p>
+        <a href="#contact" class="btn btn-primary btn-lg">Get in Touch</a>
+    </header>
+    
+    <section class="section" id="about">
+        <div class="container text-center">
+            <h2>About Me</h2>
+            <p>I am a highly experienced freelance engineer with a strong background in the petroleum industry. I specialize in Distributed Control Systems (DCS), automation, and cutting-edge process optimization solutions.</p>
+        </div>
+    </section>
+    
+    <section class="section bg-light" id="services">
+        <div class="container text-center">
+            <h2>Services</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <h4>DCS Configuration & Optimization</h4>
+                </div>
+                <div class="col-md-4">
+                    <h4>Process Automation</h4>
+                </div>
+                <div class="col-md-4">
+                    <h4>SCADA System Integration</h4>
+                </div>
+            </div>
+            <div class="row mt-4">
+                <div class="col-md-4">
+                    <h4>Control System Upgrades</h4>
+                </div>
+                <div class="col-md-4">
+                    <h4>Technical Consultation</h4>
+                </div>
+                <div class="col-md-4">
+                    <h4>Custom Solutions</h4>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section class="section" id="contact">
+        <div class="container text-center">
+            <h2>Contact</h2>
+            <p>Email: <a href="mailto:contact@DCSReady.com">contact@DCSReady.com</a></p>
+            <p>LinkedIn: <a href="#">Visit My Profile</a></p>
+            <a href="mailto:contact@DCSReady.com" class="btn btn-primary btn-lg">Send an Inquiry</a>
+        </div>
+    </section>
+    
+    <footer class="footer">
+        <p>&copy; 2025 DCSReady. All Rights Reserved.</p>
+    </footer>
+</body>
 </html>
