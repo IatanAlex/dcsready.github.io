@@ -2,96 +2,81 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>DCSReady - Freelance Engineering</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
-    <script>
-        new WOW().init();
-    </script>
+    <title>Your Name - Honeywell DCS & PLC Engineering Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
     <style>
-        body { font-family: 'Poppins', sans-serif; background-color: #f4f4f4; }
-        .hero {
-            background: url('https://source.unsplash.com/1600x900/?oil-rig,engineering') center/cover no-repeat;
-            color: white;
-            padding: 180px 20px;
-            text-align: center;
-            position: relative;
-            animation: fadeIn 2s ease-in-out;
-        }
-        .hero::before {
-            content: "";
-            position: absolute;
-            top: 0; left: 0;
-            width: 100%; height: 100%;
-            background: rgba(0, 0, 0, 0.6);
-        }
-        .hero h1, .hero p {
-            position: relative;
-            z-index: 1;
-        }
-        .hero h1 { font-size: 4rem; font-weight: bold; }
-        .hero p { font-size: 1.6rem; }
-        .btn-primary { background-color: #FF9800; border-color: #FF9800; transition: transform 0.3s; }
-        .btn-primary:hover { background-color: #E68900; transform: scale(1.1); }
-        .section { padding: 80px 20px; text-align: center; }
-        .services .icon { width: 80px; margin-bottom: 15px; filter: drop-shadow(2px 2px 4px rgba(0,0,0,0.2)); }
-        .footer { background: #222; color: white; padding: 20px; text-align: center; }
+        body { background-color: #f4f4f4; }
+        .section-title { text-align: center; margin-bottom: 40px; }
+        .project-card { transition: transform 0.3s ease; }
+        .project-card:hover { transform: translateY(-5px); }
     </style>
 </head>
 <body>
-    <header class="hero">
-        <h1 class="wow fadeInDown">DCSReady - Engineering Excellence</h1>
-        <p class="wow fadeInUp">Optimizing Automation & Control Systems in the Petroleum Industry</p>
-        <a href="#contact" class="btn btn-primary btn-lg wow zoomIn" data-wow-delay="0.5s">Contact Me</a>
+    <!-- Header -->
+    <header class="bg-dark text-white p-4">
+        <div class="container">
+            <h1>Your Name</h1>
+            <p>Honeywell DCS & PLC Systems Engineer</p>
+        </div>
     </header>
-    
-    <section class="section" id="services">
+
+    <!-- Skills Section -->
+    <section class="py-5">
         <div class="container">
-            <h2 class="wow fadeInUp">Services</h2>
-            <div class="row">
-                <div class="col-md-4 wow fadeInLeft">
-                    <img src="https://cdn-icons-png.flaticon.com/128/5060/5060516.png" class="icon" alt="DCS Optimization">
-                    <h4>DCS Optimization</h4>
+            <h2 class="text-center mb-4">Skills</h2>
+            <div class="row g-4">
+                <div class="col-md-6">
+                    <div class="card project-card">
+                        <div class="card-body">
+                            <h5 class="card-title">Honeywell DCS Systems</h5>
+                            <p>Expertise in design, configuration, and troubleshooting of Honeywell DCS systems.</p>
+                        </div>
+                    </div>
                 </div>
-                <div class="col-md-4 wow fadeInUp">
-                    <img src="https://cdn-icons-png.flaticon.com/128/2991/2991091.png" class="icon" alt="Process Automation">
-                    <h4>Process Automation</h4>
-                </div>
-                <div class="col-md-4 wow fadeInRight">
-                    <img src="https://cdn-icons-png.flaticon.com/128/1002/1002837.png" class="icon" alt="SCADA Integration">
-                    <h4>SCADA Integration</h4>
-                </div>
-            </div>
-            <div class="row mt-5">
-                <div class="col-md-4 wow fadeInLeft">
-                    <img src="https://cdn-icons-png.flaticon.com/128/2856/2856904.png" class="icon" alt="PLC Programming">
-                    <h4>PLC Programming</h4>
-                </div>
-                <div class="col-md-4 wow fadeInUp">
-                    <img src="https://cdn-icons-png.flaticon.com/128/4323/4323069.png" class="icon" alt="Instrumentation & Control">
-                    <h4>Instrumentation & Control</h4>
-                </div>
-                <div class="col-md-4 wow fadeInRight">
-                    <img src="https://cdn-icons-png.flaticon.com/128/2894/2894009.png" class="icon" alt="Cybersecurity for ICS">
-                    <h4>Cybersecurity for Industrial Control Systems</h4>
+                <div class="col-md-6">
+                    <div class="card project-card">
+                        <div class="card-body">
+                            <h5 class="card-title">PLC Programming</h5>
+                            <p>Proficiency in PLC programming for industrial automation (e.g., Allen-Bradley, Siemens).</p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
-    
-    <section class="section bg-light" id="contact">
+
+    <!-- Projects Section -->
+    <section class="py-5 bg-light">
         <div class="container">
-            <h2 class="wow fadeInUp">Contact</h2>
-            <p>Email: <a href="mailto:contact@DCSReady.com">contact@DCSReady.com</a></p>
-            <p>LinkedIn: <a href="https://www.linkedin.com/in/alex-iatan-775b9442/">Visit My Profile</a></p>
+            <h2 class="text-center mb-4">Projects</h2>
+            <div class="row g-4">
+                <div class="col-md-6">
+                    <div class="card project-card">
+                        <div class="card-body">
+                            <h5 class="card-title">Automation System Design</h5>
+                            <p>Award-winning DCS system design for a pharmaceutical manufacturing line.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Add more project cards here -->
+            </div>
         </div>
     </section>
-    
-    <footer class="footer">
-        <p>&copy; 2025 DCSReady. All Rights Reserved.</p>
+
+    <!-- Contact Section -->
+    <footer class="bg-dark text-white p-4">
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-md-6">
+                    <h3>Contact Me</h3>
+                    <p>Email: your.email@example.com</p>
+                </div>
+                <div class="col-md-6">
+                    <a href="#" class="btn btn-primary">Connect on LinkedIn</a>
+                </div>
+            </div>
+        </div>
     </footer>
 </body>
 </html>
